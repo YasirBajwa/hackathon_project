@@ -71,7 +71,7 @@ submit__btn__txt:{
   },
   blood__card__box__user__name:{
       color:'white',
-      marginTop:10
+      marginTop:10,
   }
   ,blood__card__box__body__c1__1:{
       flex:1,
