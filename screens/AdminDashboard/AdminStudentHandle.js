@@ -24,7 +24,7 @@ const AdminStudentHandle = (props) => {
     myFunc();
   },[])
 const  deleteStudent = async (index) => {
-  await firebase.database().ref('company_jobs').child(index).remove();
+  await firebase.database().ref('register_students').child(index).remove();
   firebaseData.splice(index);
   setFirebaseData([...firebaseData]);
   alert('User has been deleted permanently');
