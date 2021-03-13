@@ -59,7 +59,7 @@ const myNavigation = props.navigation
                      <View style={styles.blood__card__box__header__c2}>
                           <View style={styles.blood__card__box__header__c2__txt}  >
                             <TouchableOpacity onPress={ () => deleteJob(data.key)}>
-                                <Text style={{color:'white'}}>DELETE USER</Text>
+                                <Text style={{color:'white'}}>DELETE JOB</Text>
                             </TouchableOpacity>
 
                           </View>
